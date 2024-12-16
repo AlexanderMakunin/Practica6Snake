@@ -33,7 +33,12 @@ public class Snake {
 
         for (int d = length - 1; d > 0; d--) {
             if ((snakeX[0] == snakeX[d]) && (snakeY[0] == snakeY[d])) {
-                JOptionPane.showMessageDialog(null, "Has perdido", "Perder", JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(null, "Has perdido\n Tu record fue: " + (length - 2), "Perder", JOptionPane.INFORMATION_MESSAGE);
+                snakeX[0] = 10;
+                snakeX[1] = 9;
+                snakeY[0] = 10;
+                snakeY[1] = 10;
+                length = 2;
             }
         }
 

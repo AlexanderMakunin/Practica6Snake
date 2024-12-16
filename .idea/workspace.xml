@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Practica6Snake:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8035c961-707f-434b-bf33-fbd3ed36ef70" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alexandermakunin/sources/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alexandermakunin/sources/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alexandermakunin/__MACOSX/sources/._Apple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alexandermakunin/__MACOSX/sources/._Snake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alexandermakunin/__MACOSX/sources/._SnakeGame.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alexandermakunin/sources/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alexandermakunin/sources/Snake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alexandermakunin/sources/SnakeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alexandermakunin/sources/SnakeGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +42,7 @@
   "keyToString": {
     "Gradle.Practica6Snake [:com.alexandermakunin.sources.SnakeGame.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Alex.M/Desktop",
