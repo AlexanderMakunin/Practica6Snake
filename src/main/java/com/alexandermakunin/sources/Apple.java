@@ -1,7 +1,5 @@
 package com.alexandermakunin.sources;
 
-import com.alexandermakunin.sources.SnakeGame;
-
 public class Apple {
 
     SnakeGame main;

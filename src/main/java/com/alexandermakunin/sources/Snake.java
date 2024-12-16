@@ -1,6 +1,6 @@
 package com.alexandermakunin.sources;
 
-import com.alexandermakunin.sources.SnakeGame;
+import javax.swing.*;
 
 public class Snake {
 
@@ -21,7 +21,6 @@ public class Snake {
 
     @SuppressWarnings("static-access")
     public void move() {
-
         for (int d = length; d > 0; d--) {
             snakeX[d] = snakeX[d - 1];
             snakeY[d] = snakeY[d - 1];
@@ -33,8 +32,12 @@ public class Snake {
         if (direction == 3) snakeY[0]--;
 
         for (int d = length - 1; d > 0; d--) {
-            if ((snakeX[0] == snakeX[d]) & (snakeX[0] == snakeY[d])) length = d - 2;
+            if ((snakeX[0] == snakeX[d]) && (snakeY[0] == snakeY[d])) {
+                JOptionPane.showMessageDialog(null, "Has perdido", "Perder", JOptionPane.INFORMATION_MESSAGE);
+            }
         }
+
+
 
         if (snakeX[0] > main.WIDTH) snakeX[0] = 0;
         if (snakeX[0] < 0) snakeX[0] = main.WIDTH - 1;

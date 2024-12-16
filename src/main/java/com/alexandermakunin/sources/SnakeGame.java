@@ -1,8 +1,5 @@
 package com.alexandermakunin.sources;
 
-import com.alexandermakunin.sources.Apple;
-import com.alexandermakunin.sources.Snake;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
